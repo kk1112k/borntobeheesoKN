@@ -1,0 +1,44 @@
+#SITE_CONTAINER.focus-ring-active :not(.has-custom-focus):not(.ignore-focus):not([tabindex=\"-1\"]):focus,
+#SITE_CONTAINER.focus-ring-active :not(.has-custom-focus):not(.ignore-focus):not([tabindex=\"-1\"]):focus~.wixSdkShowFocusOnSibling {
+    box-shadow: 0 0 0 1px #ffffff, 0 0 0 3px #116dff !important;
+    z-index: 1;
+}
+
+:root,
+:host {
+    --color_0: 255, 255, 255;
+    --color_44: 255, 255, 255;
+    --color_22: 194, 178, 163;
+    --color_1: 255, 255, 255;
+    --color_2: 0, 0, 0;
+    --color_3: 237, 28, 36;
+    --color_4: 0, 136, 203;
+    --color_5: 255, 203, 5;
+    --color_6: 114, 114, 114;
+    --color_7: 176, 176, 176;
+    --color_8: 255, 255, 255;
+    --color_23: 145, 133, 122;
+    --color_9: 114, 114, 114;
+    --color_10: 176, 176, 176;
+    --color_11: 255, 255, 255;
+    --color_12: 227, 227, 227;
+    --color_13: 151, 151, 151;
+    --color_14: 79, 79, 79;
+    --color_15: 0, 0, 0;
+    --color_16: 232, 234, 237;
+    --color_17: 149, 158, 229;
+    --color_18: 56, 74, 211;
+    --portals-z-index: 100001;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    --minViewportSize: 320;
+    --color_65: 151, 151, 151;
+    --color_43: 151, 151, 151;
+    --maxViewportSize: 1920
+}
+#SITE_PAGES {
+    --transition-duration: 0ms
+}
+#BACKGROUND_GROUP {
+    --transition-duration: 0ms
+}
